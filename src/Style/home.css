@@ -1,0 +1,72 @@
+#Home-container{
+    height: 100vh;
+    background-image: url("../Images/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container-of-the-home-slogan{
+    text-align: center;
+    display: flex;
+    flex: 1;
+    padding: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#slogan-of-the-home{
+  width: 100%;   
+}
+#rightt-side-slogan{
+    width: 100%;
+}
+#home-slogan{
+    font-size: 38px;
+}
+.org-images{
+    height: 8vh;
+    margin-left: 5vh;
+}
+#img-container-org{
+    text-align: center;
+}
+#organization-of-thesave-eath{
+    text-align: center;
+    font-size: large;
+    color: gray;
+}
+#second-slide-container{
+    display: flex;
+    flex: 1;
+    margin-top: 10vh;
+    background-color:#D1E8E6;;
+}
+#left-side-of-second-slide{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+#right-side-of-second-slide{
+    width: 100%;
+}
+.para-of-second-slide{
+    color: gray;
+}
+.read-more-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #60d896;
+    border-color: #60d896;
+}
+.read-more-btn:hover{
+    box-shadow: 3px 3px 10px black;
+}
+#read-more-in-the-home-slogan{
+text-align: left;
+/* padding: 1vh; */
+}

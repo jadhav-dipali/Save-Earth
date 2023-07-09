@@ -1,0 +1,27 @@
+#logo{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+}
+#nav-bar-topnav{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 5vh;
+}
+#left-side-nav-bar{
+    display: flex;
+    gap:3vh;
+}
+#right-side-nav-bar ul{
+   display: flex;
+   list-style: none;
+   gap:10vh;
+   font-size: large;
+   font-weight: bold;
+   text-shadow: 2px 2px 5px black;
+}
+#right-side-nav-bar ul li:hover{
+    text-shadow: 2px 2px 5px green;
+    font-size: 25px;
+}
