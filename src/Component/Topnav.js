@@ -1,4 +1,4 @@
-import logo from "../Images/logo.png"
+import logo from "../Images/save-earth-logo.png"
 import "../Style/topnav.css"
 
 export default function Topnav(){
@@ -13,6 +13,7 @@ export default function Topnav(){
             <li>Home</li>
             <li>About Us</li>
             <li>Survay</li>
+            <li>Recycle</li>
             <li>Contact</li>
         </ul>
        </div>

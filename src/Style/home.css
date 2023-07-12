@@ -1,10 +1,11 @@
-#Home-container{
+#Home-container {
     height: 100vh;
     background-image: url("../Images/image2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-#container-of-the-home-slogan{
+
+#container-of-the-home-slogan {
     text-align: center;
     display: flex;
     flex: 1;
@@ -13,47 +14,59 @@
     align-items: center;
     color: aliceblue;
 }
-#slogan-of-the-home{
-  width: 100%;   
-}
-#rightt-side-slogan{
+
+#slogan-of-the-home {
     width: 100%;
 }
-#home-slogan{
+
+#rightt-side-slogan {
+    width: 100%;
+}
+
+#home-slogan {
     font-size: 38px;
 }
-.org-images{
+
+.org-images {
     height: 8vh;
     margin-left: 5vh;
 }
-#img-container-org{
+
+#img-container-org {
     text-align: center;
 }
-#organization-of-thesave-eath{
+
+#organization-of-thesave-eath {
     text-align: center;
     font-size: large;
     color: gray;
 }
-#second-slide-container{
+
+#second-slide-container {
     display: flex;
     flex: 1;
     margin-top: 10vh;
-    background-color:#D1E8E6;;
+    background-color: #D1E8E6;
+    ;
 }
-#left-side-of-second-slide{
+
+#left-side-of-second-slide {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5vh;
 }
-#right-side-of-second-slide{
+
+#right-side-of-second-slide {
     width: 100%;
 }
-.para-of-second-slide{
+
+.para-of-second-slide {
     color: gray;
 }
-.read-more-btn{
+
+.read-more-btn {
     height: 50px;
     width: 150px;
     border-radius: 25px;
@@ -63,10 +76,134 @@
     background-color: #60d896;
     border-color: #60d896;
 }
-.read-more-btn:hover{
+
+.read-more-btn:hover {
     box-shadow: 3px 3px 10px black;
 }
-#read-more-in-the-home-slogan{
-text-align: left;
-/* padding: 1vh; */
+
+#read-more-in-the-home-slogan {
+    text-align: left;
+    /* padding: 1vh; */
+}
+
+.threeimages-in-thirdSlide {
+    height: 30vh;
+    width: 100%;
+}
+
+#image-card-holder {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh;
+}
+
+.image-card-container {
+    width: 50vh;
+    box-shadow: 3px 3px 10px black;
+    text-align: center;
+    padding: 1vh;
+}
+
+.lorem-para-card {
+    font-size: large;
+    font-weight: bold;
+}
+
+.image-card-container:hover {
+    margin-top: -7vh;
+}
+
+#more-servicess {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.slide-three {
+    text-align: right;
+    padding: 10vh;
+}
+
+.servay {
+    text-align: center;
+}
+
+#third-slide-container {
+    margin-top: 10vh;
+}
+
+.servay-of-survay {
+    color: gray;
+}
+#forth-slide-start{
+    margin-top: 10vh;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../Images/imagesWesternGhats.jpg");
+    display: flex;
+    flex: 1;
+}
+#leftside-of-the-side-forth{
+    /* width: 100%; */
+}
+.right-side-of-the-side-forth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what-people-say{
+    background-color:white;
+   height: 380px;
+   margin-left: 2vh;
+
+}
+.recycle-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#others-heading{
+    color: aliceblue;
+    padding-left: 10vh;
+    text-shadow: 2px 2px 5px black;
+}
+#left-side-sixth-slide-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+#right-side-sixth-slide-home{
+    width: 100%;
+    display: flex;
+    gap: 5vh;
+}
+.image-what-people-say{
+    height: 350px;
+    margin-top: 30vh;
+    background-color: #fff;
+}
+.lorem-para-card-abc{
+    text-align: center;
+}
+#footer-of-the-home{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+#right-side-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -20px;
+}
+#left-side-footer{
+    width: 100%;
+  
+}
+.social-app{
+    margin-left:2vh ;
 }
